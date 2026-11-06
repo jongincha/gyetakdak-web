@@ -1586,7 +1586,7 @@ img, canvas { max-width: 100%; }
 /* 가장 묵직한 다크 차콜 배경의 전체 폭 푸터 */
 .footer {
   background: #0f0f0f;
-  color: #888;
+  color: #fff;
   padding: 64px 0 140px;
   overflow-x: hidden;
 }
@@ -1610,10 +1610,11 @@ img, canvas { max-width: 100%; }
   font-size: 0.88rem;
 }
 .footer__info div { display: flex; gap: 6px; }
-.footer__info dt { color: #aaa; flex-shrink: 0; white-space: nowrap; }
+.footer__info dt { color: #fff; flex-shrink: 0; white-space: nowrap; }
 .footer__links { display: flex; gap: 18px; margin-bottom: 16px; font-size: 0.86rem; }
-.footer__links a:hover { color: #fff; }
-.footer__copy { font-size: 0.8rem; margin: 0; }
+.footer__links a { color: #fff; }
+.footer__links a:hover { opacity: 0.75; }
+.footer__copy { font-size: 0.8rem; margin: 0; color: #888; }
 
 /* ---------- 플로팅 CTA ---------- */
 .floating-cta {
