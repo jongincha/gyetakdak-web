@@ -2196,7 +2196,8 @@ img, canvas { max-width: 100%; }
   max-width: var(--container);
   margin: 0 auto;
   font-size: 0.78rem;
-  color: var(--light-gold);
+  font-weight: 600;
+  color: #ffab40;
 }
 .sticky-inquiry__status.is-error { color: #ff8a80; }
 .sticky-inquiry__status:empty { display: none; }
